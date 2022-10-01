@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  flask:
+    build: .
+    restart: on-failure
+    ports:
+      - "5000:5000"
+
